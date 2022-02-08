@@ -1,0 +1,49 @@
+#root{
+    flex:1;
+}
+#navbar{
+    padding: 15px;
+    color:rgb(78, 82, 114);
+    background-color:rgb(113, 116, 141);
+}
+
+.col-lg-4{transition: all .3s;}
+.col-lg-4:hover{transform: scale(1.04);}
+
+
+
+#footerCustom{
+    background-color:#dbdbdb;
+}
+
+
+
+
+/* login page content */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
