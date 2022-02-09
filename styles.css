@@ -6,6 +6,10 @@
     color:rgb(78, 82, 114);
     background-color:rgb(113, 116, 141);
 }
+.navbar-brand{
+  font-size: 40;
+  font-weight: bold;
+}
 
 .col-lg-4{transition: all .3s;}
 .col-lg-4:hover{transform: scale(1.04);}
@@ -14,7 +18,21 @@
 
 #footerCustom{
     background-color:#dbdbdb;
+
 }
+
+
+
+
+/* flexbox for footer */
+.flexone{
+   flex:1;
+}
+.flextwo{
+  flex:2;
+}
+
+
 
 
 
