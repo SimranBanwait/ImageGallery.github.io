@@ -1,5 +1,4 @@
 FROM nginx:1.23-alpine
-RUN rm -r usr/share/nginx/html/index.html
+COPY nginx.conf /etc/nginx/nginx.conf
 COPY . usr/share/nginx/html/
-EXPOSE 80
 
